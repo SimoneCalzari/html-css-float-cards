@@ -67,15 +67,19 @@ MAIN
 
 .img-member {
   width: 100px;
-  height: 100px;
-  background-color: red;
   float: left;
+  background-color: blue;
 }
 
 .bio-member {
   width: calc(100% - 100px);
-  height: 100px;
-  background-color: yellow;
+  /* background-color: #0f0e17; */
   float: left;
+  height: 100px;
+}
+
+.img-member img {
+  width: 100%;
+  display: block;
 }
 

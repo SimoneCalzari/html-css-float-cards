@@ -60,7 +60,6 @@ MAIN
 
 .team-member {
   margin: 25px 10px;
-  border: 1px solid black;
   float: left;
   width: calc(100% / 3 - 20px);
 }
@@ -73,13 +72,34 @@ MAIN
 
 .bio-member {
   width: calc(100% - 100px);
-  /* background-color: #0f0e17; */
+  background-color: #0f0e17;
   float: left;
   height: 100px;
+  padding: 15px;
 }
 
 .img-member img {
   width: 100%;
   display: block;
+}
+
+.bio-member div {
+  margin-bottom: 8px;
+} 
+
+.bio-member div:nth-child(1) {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.bio-member div:nth-child(2) {
+  font-size: 16px;
+  color: white;
+}
+
+.bio-member div:nth-child(3) {
+  font-size: 13px;
+  color: #55ccf2;
 }
 

@@ -52,10 +52,6 @@ MAIN
 --------
 */
 
-/* .team-group {
-  border: 2px solid black;
-} */
-
 .team-group::after {
   content: '';
   display: block;
@@ -65,9 +61,21 @@ MAIN
 .team-member {
   margin: 25px 10px;
   border: 1px solid black;
-  background-color: blue;
   float: left;
   width: calc(100% / 3 - 20px);
+}
+
+.img-member {
+  width: 100px;
   height: 100px;
+  background-color: red;
+  float: left;
+}
+
+.bio-member {
+  width: calc(100% - 100px);
+  height: 100px;
+  background-color: yellow;
+  float: left;
 }
 

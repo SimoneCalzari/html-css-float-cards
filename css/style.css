@@ -52,6 +52,7 @@ MAIN
 --------
 */
 
+
 .team-group::after {
   content: '';
   display: block;
@@ -62,6 +63,7 @@ MAIN
   margin: 25px 10px;
   float: left;
   width: calc(100% / 3 - 20px);
+  box-shadow: -3px 0 10px rgba(0, 0, 0, 0.1), 3px 0 10px rgba(0, 0, 0, 0.1), 0px 3px 10px rgba(0, 0, 0, 0.1), 0 -3px 10px rgba(0, 0, 0, 0.1);
 }
 
 .img-member {

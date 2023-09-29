@@ -59,6 +59,7 @@ MAIN
 }
 
 .team-member {
+  background-color: #0f0e17;
   margin: 25px 10px;
   float: left;
   width: calc(100% / 3 - 20px);
@@ -68,14 +69,12 @@ MAIN
 .img-member {
   width: 100px;
   float: left;
-  background-color: blue;
 }
 
 .bio-member {
   width: calc(100% - 100px);
   background-color: #0f0e17;
   float: left;
-  height: 100px;
   padding: 12px;
 }
 
@@ -99,8 +98,13 @@ MAIN
   color: white;
 }
 
-.bio-member div:nth-child(3) {
+.bio-member div:nth-child(3) a {
+  text-decoration: none;
   font-size: 13px;
   color: #55ccf2;
 }
+
+
+
+
 
